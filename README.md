@@ -1,15 +1,15 @@
 # Kassara Landing Page
 
-AI tabanlı fal deneyimi sunan Kassara için minimalist dark theme landing page.
+Minimalist dark theme landing page for Kassara - AI-powered fortune telling startup.
 
-## 🚀 Kurulum
+## 🚀 Quick Start
 
 ```bash
-# NVM ile Node.js 20 kullan
+# Use Node.js 20+ with NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
 # Development server
@@ -19,28 +19,112 @@ npm run dev
 npm run build
 ```
 
-## 🎨 Özellikler
+## 🎨 Features
 
-- ✅ Çoklu dil desteği (Türkçe/English)
+- ✅ Multi-language support (Turkish/English)
 - ✅ Minimalist dark theme
 - ✅ Fully responsive (mobile, tablet, desktop)
-- ✅ WhatsApp entegrasyonu
-- ✅ İletişim formu
+- ✅ WhatsApp integration
+- ✅ Contact form
 - ✅ SEO optimized
 - ✅ Smooth scroll navigation
-- ✅ Modern animasyonlar
+- ✅ Modern animations
 
-## 🔧 Özelleştirme
+## 🛠️ Tech Stack
 
-- **WhatsApp numarası**: `src/utils/constants.js`
-- **Sosyal medya linkleri**: `src/utils/constants.js`
-- **Dil çevirileri**: `src/i18n/locales/tr.json` ve `en.json`
+- React 19
+- Vite
+- Tailwind CSS 3
+- React Router
+- React Scroll
+- i18next (internationalization)
+- React Icons
+
+## 🔧 Customization
+
+- **WhatsApp number**: `src/utils/constants.js`
+- **Social media links**: `src/utils/constants.js`
+- **Language translations**: `src/i18n/locales/tr.json` and `en.json`
 - **Logo**: `public/logo.svg`
 
-## 📄 Sayfalar
+## 📄 Pages
 
-- `/` - Ana sayfa
-- `/privacy-policy` - Gizlilik Politikası
-- `/terms-of-service` - Kullanım Şartları
+- `/` - Home page (Hero, About, Features, WhatsApp, Contact)
+- `/privacy-policy` - Privacy Policy
+- `/terms-of-service` - Terms of Service
 
-© 2024 Kassara
+## 🌐 Multi-language Support
+
+The website supports Turkish (default) and English. Users can switch languages using the language selector in the navbar (TR/EN buttons).
+
+### Adding a New Language
+
+1. Create a new JSON file in `src/i18n/locales/` (e.g., `de.json`)
+2. Copy the structure from `tr.json` or `en.json`
+3. Translate all strings
+4. Add the language to `src/i18n/config.js`
+5. Update `LanguageSwitcher.jsx` to include the new language
+
+## 🎨 Color Palette
+
+- **Black** (#000000) - Main background
+- **Gray-900** (#111827) - Card backgrounds
+- **Gray-800** (#1f2937) - Borders
+- **White** (#ffffff) - Headings and CTAs
+- **Gray-400** (#9ca3af) - Body text
+- **Gray-500** (#6b7280) - Secondary text
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 640px
+- **Tablet**: 640px - 1024px
+- **Desktop**: > 1024px
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+```bash
+npm i -g vercel
+vercel
+```
+
+### Netlify
+```bash
+npm run build
+# Upload dist/ folder to Netlify
+```
+
+### Manual Deployment
+```bash
+npm run build
+# Upload dist/ folder to your hosting
+```
+
+## 📝 Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/         # Navbar, Footer
+│   ├── sections/       # Hero, About, Features, WhatsApp, Contact
+│   └── ui/            # Button, Card, LanguageSwitcher
+├── pages/             # Home, PrivacyPolicy, TermsOfService
+├── i18n/              # Internationalization config and translations
+├── utils/             # Constants and utilities
+├── index.css          # Global styles
+├── main.jsx           # App entry point
+└── App.jsx            # Main app component with routing
+```
+
+## 📞 Contact & Support
+
+- Email: info@kassara.com
+- WhatsApp: +90 555 123 45 67
+
+## 📄 License
+
+© 2024 Kassara. All rights reserved.
+
+---
+
+Built with ❤️ in Turkey
