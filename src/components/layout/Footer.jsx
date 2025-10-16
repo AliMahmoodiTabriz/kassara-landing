@@ -3,7 +3,7 @@ import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaHeart } from 'react-icons/fa';
-import { SOCIAL_LINKS } from '../../utils/constants';
+import { WHATSAPP_PHONE, WHATSAPP_MESSAGE, SOCIAL_LINKS } from '../../utils/constants';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -41,7 +41,7 @@ const Footer = () => {
             )}
             <p className="text-sm sm:text-base text-gray-400 mb-6">{t('footer.description')}</p>
             <a
-              href="https://wa.me/905551234567"
+              href={`https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-black hover:bg-gray-200 px-4 py-2 rounded-lg transition-all transform hover:scale-105 font-medium text-sm sm:text-base"

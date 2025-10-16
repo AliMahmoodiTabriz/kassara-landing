@@ -1,5 +1,5 @@
 export const WHATSAPP_PHONE = '+905345799103';
-export const WHATSAPP_MESSAGE = 'Merhaba! Fal baktırmak istiyorum.';
+export const WHATSAPP_MESSAGE = 'Merhaba! Kassara ile fal baktırmak istiyorum.';
 
 export const SOCIAL_LINKS = {
   instagram: 'https://instagram.com/kassara',

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
+import { WHATSAPP_PHONE } from '../../utils/constants';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: FaEnvelope, titleKey: 'contact.emailTitle', value: 'info@kassara.app', link: 'mailto:info@kassara.app' },
-    { icon: FaPhone, titleKey: 'contact.phoneTitle', value: '+90 534 579 91 03', link: 'tel:+905345799103' },
+    { icon: FaPhone, titleKey: 'contact.phoneTitle', value: WHATSAPP_PHONE.replace('+', '+90 ').replace(/(\d{3})(\d{3})(\d{2})(\d{2})/, '$1 $2 $3 $4'), link: `tel:${WHATSAPP_PHONE}` },
     { icon: FaMapMarkerAlt, titleKey: 'contact.addressTitle', valueKey: 'contact.address', link: '#' }
   ];
 
