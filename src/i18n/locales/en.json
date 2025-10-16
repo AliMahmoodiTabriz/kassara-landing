@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "whatsapp": "WhatsApp",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Get Fortune Reading with AI",
+    "subtitle": "Discover your future with Kassara",
+    "description": "AI-powered tarot, astrology, and coffee fortune reading experience. Get instant readings via WhatsApp.",
+    "whatsappBtn": "Get Reading on WhatsApp",
+    "downloadBtn": "Download App",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "AI-Powered Fortune Experience",
+    "intro1": "Kassara is an innovative platform that brings traditional fortune telling to the modern world with AI technology.",
+    "intro2": "We combine the knowledge of expert fortune tellers with the power of AI to provide you with the most accurate and personalized fortune experience.",
+    "mission": "Our Mission",
+    "missionText": "Accessible, reliable fortune experience for everyone.",
+    "vision": "Our Vision",
+    "visionText": "To become a global platform.",
+    "cardTitle": "AI + Traditional Fortune Telling",
+    "cardDesc": "Expert knowledge and AI combined.",
+    "customers": "Happy Customers",
+    "accuracy": "Accuracy"
+  },
+  "features": {
+    "title": "Our Features",
+    "subtitle": "AI-Powered Fortune Experience",
+    "tarot": {
+      "title": "Tarot Reading",
+      "desc": "Discover your future with AI-powered tarot cards."
+    },
+    "astrology": {
+      "title": "Astrology",
+      "desc": "Analysis based on your birth chart and planetary positions."
+    },
+    "coffee": {
+      "title": "Coffee Reading",
+      "desc": "Traditional coffee reading with modern technology."
+    },
+    "ai": {
+      "title": "AI Analysis",
+      "desc": "Personalized detailed analysis with AI."
+    },
+    "whyTitle": "Why Kassara?",
+    "whyDesc": "Combining traditional fortune telling with modern technology to provide you with the most accurate analysis.",
+    "service247": "24/7 Service",
+    "aiPower": "AI Power",
+    "privacy": "Privacy"
+  },
+  "whatsapp": {
+    "title": "Get Reading on WhatsApp",
+    "subtitle": "Instant Fortune Experience",
+    "description": "Connect directly with our fortune tellers via WhatsApp. Natural conversation experience like talking to a human.",
+    "step1": "Send message on WhatsApp",
+    "step1Desc": "Connect via WhatsApp",
+    "step2": "Choose reading type",
+    "step2Desc": "Select your preferred reading type",
+    "step3": "Get AI analysis",
+    "step3Desc": "Receive detailed analysis",
+    "startBtn": "Start on WhatsApp",
+    "aiName": "Kassara AI",
+    "online": "Online",
+    "msg1": "Hello! I want to get a fortune reading.",
+    "msg2": "Hello! What type of reading would you like?"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "formTitle": "Send Us a Message",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "example@email.com",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Write your message...",
+    "sendBtn": "Send",
+    "infoTitle": "Contact Information",
+    "infoDesc": "Get in touch for your questions.",
+    "emailTitle": "Email",
+    "phoneTitle": "Phone",
+    "addressTitle": "Address",
+    "address": "Istanbul, Turkey",
+    "sent": "Your message has been sent!"
+  },
+  "footer": {
+    "description": "Discover your future with AI-powered fortune experience.",
+    "whatsappBtn": "Start on WhatsApp",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "social": "Social Media",
+    "copyright": "© 2024 Kassara. All rights reserved.",
+    "madeWith": "Made with",
+    "inTurkey": "in Turkey"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: October 16, 2024",
+    "intro": "Introduction",
+    "introText": "At Kassara, protecting your personal data is important to us. This policy explains how we collect and protect your data.",
+    "collected": "Collected Information",
+    "collectedItems": ["Contact information", "Fortune reading requests", "WhatsApp messaging history", "App usage data"],
+    "contactTitle": "Contact",
+    "contactText": "For your questions"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: October 16, 2024",
+    "general": "General Terms",
+    "generalText": "These terms define the rules you must follow when using the Kassara platform.",
+    "service": "Service Definition",
+    "serviceText": "Kassara offers the following services:",
+    "serviceItems": ["Tarot reading services", "Astrology analysis", "Coffee fortune interpretations", "WhatsApp fortune consultation"],
+    "contactTitle": "Contact",
+    "contactText": "For your questions"
+  }
+}
+

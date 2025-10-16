@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "features": "Özellikler",
+    "whatsapp": "WhatsApp",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "AI ile Fal Baktır",
+    "subtitle": "Kassara ile geleceğini keşfet",
+    "description": "Yapay zeka destekli tarot, astroloji ve kahve falı deneyimi. WhatsApp üzerinden anında fal baktır.",
+    "whatsappBtn": "WhatsApp'ta Fal Baktır",
+    "downloadBtn": "Uygulamayı İndir",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "AI Tabanlı Fal Deneyimi",
+    "intro1": "Kassara, yapay zeka teknolojisi ile geleneksel falcılığı modern dünyaya taşıyan yenilikçi bir platformdur.",
+    "intro2": "Uzman falcılarımızın bilgisi ve AI'ın gücünü birleştirerek size en doğru ve kişiselleştirilmiş fal deneyimini sunuyoruz.",
+    "mission": "Misyonumuz",
+    "missionText": "Herkesin erişebileceği, güvenilir fal deneyimi.",
+    "vision": "Vizyonumuz",
+    "visionText": "Dünya çapında bir platform haline gelmek.",
+    "cardTitle": "AI + Geleneksel Falcılık",
+    "cardDesc": "Uzman bilgisi ve yapay zeka birleşimi.",
+    "customers": "Mutlu Müşteri",
+    "accuracy": "Doğruluk"
+  },
+  "features": {
+    "title": "Özelliklerimiz",
+    "subtitle": "AI Destekli Fal Deneyimi",
+    "tarot": {
+      "title": "Tarot Falı",
+      "desc": "AI destekli tarot kartları ile geleceğinizi keşfedin."
+    },
+    "astrology": {
+      "title": "Astroloji",
+      "desc": "Doğum haritanız ve gezegen konumlarına göre analiz."
+    },
+    "coffee": {
+      "title": "Kahve Falı",
+      "desc": "Geleneksel kahve falı deneyimini modern teknoloji ile."
+    },
+    "ai": {
+      "title": "AI Analizi",
+      "desc": "Yapay zeka ile kişiselleştirilmiş detaylı analizler."
+    },
+    "whyTitle": "Neden Kassara?",
+    "whyDesc": "Geleneksel falcılık deneyimini modern teknoloji ile buluşturarak, size en doğru analizleri sunuyoruz.",
+    "service247": "Kesintisiz Hizmet",
+    "aiPower": "Yapay Zeka",
+    "privacy": "Gizlilik"
+  },
+  "whatsapp": {
+    "title": "WhatsApp'ta Fal Baktır",
+    "subtitle": "Anında Fal Deneyimi",
+    "description": "WhatsApp üzerinden direkt falcılarımızla iletişime geçin. İnsan gibi doğal konuşma deneyimi.",
+    "step1": "WhatsApp'ta mesaj gönder",
+    "step1Desc": "WhatsApp üzerinden iletişime geçin",
+    "step2": "Fal türünü seç",
+    "step2Desc": "İstediğiniz fal türünü seçin",
+    "step3": "AI analiz al",
+    "step3Desc": "Detaylı analiz alın",
+    "startBtn": "WhatsApp'ta Başla",
+    "aiName": "Kassara AI",
+    "online": "Çevrimiçi",
+    "msg1": "Merhaba! Fal baktırmak istiyorum.",
+    "msg2": "Merhaba! Hangi tür fal baktırmak istersiniz?"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle İletişime Geçin",
+    "formTitle": "Bize Mesaj Gönderin",
+    "nameLabel": "Ad Soyad",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "ornek@email.com",
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Mesajınızı yazın...",
+    "sendBtn": "Gönder",
+    "infoTitle": "İletişim Bilgileri",
+    "infoDesc": "Sorularınız için bizimle iletişime geçin.",
+    "emailTitle": "E-posta",
+    "phoneTitle": "Telefon",
+    "addressTitle": "Adres",
+    "address": "İstanbul, Türkiye",
+    "sent": "Mesajınız gönderildi!"
+  },
+  "footer": {
+    "description": "AI destekli fal deneyimi ile geleceğinizi keşfedin.",
+    "whatsappBtn": "WhatsApp'ta Başla",
+    "quickLinks": "Hızlı Linkler",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "social": "Sosyal Medya",
+    "copyright": "© 2024 Kassara. Tüm hakları saklıdır.",
+    "madeWith": "Made with",
+    "inTurkey": "in Turkey"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "updated": "Son güncelleme: 16 Ekim 2024",
+    "intro": "Giriş",
+    "introText": "Kassara olarak, kişisel verilerinizin korunması bizim için önemlidir. Bu politika, verilerinizi nasıl topladığımız ve koruduğumuz hakkında bilgi verir.",
+    "collected": "Toplanan Bilgiler",
+    "collectedItems": ["İletişim bilgileri", "Fal baktırma talepleri", "WhatsApp mesajlaşma geçmişi", "Uygulama kullanım verileri"],
+    "contactTitle": "İletişim",
+    "contactText": "Sorularınız için"
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "updated": "Son güncelleme: 16 Ekim 2024",
+    "general": "Genel Hükümler",
+    "generalText": "Bu şartlar, Kassara platformunu kullanırken uymanız gereken kuralları belirler.",
+    "service": "Hizmet Tanımı",
+    "serviceText": "Kassara şu hizmetleri sunar:",
+    "serviceItems": ["Tarot falı okuma hizmetleri", "Astroloji analizleri", "Kahve falı yorumları", "WhatsApp fal danışmanlığı"],
+    "contactTitle": "İletişim",
+    "contactText": "Sorularınız için"
+  }
+}
+
