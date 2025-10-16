@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
             <section>
               <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">{t('privacy.contactTitle')}</h2>
               <p className="text-sm sm:text-base text-gray-400">
-                {t('privacy.contactText')} <a href="mailto:privacy@kassara.com" className="text-white hover:underline">privacy@kassara.com</a>
+                {t('privacy.contactText')} <a href="mailto:info@kassara.app" className="text-white hover:underline">info@kassara.app</a>
               </p>
             </section>
           </div>

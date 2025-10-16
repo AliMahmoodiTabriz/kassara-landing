@@ -118,8 +118,8 @@ src/
 
 ## 📞 Contact & Support
 
-- Email: info@kassara.com
-- WhatsApp: +90 555 123 45 67
+- Email: info@kassara.app
+- WhatsApp: +90 534 579 91 03
 
 ## 📄 License
 

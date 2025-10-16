@@ -15,8 +15,8 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: FaEnvelope, titleKey: 'contact.emailTitle', value: 'info@kassara.com', link: 'mailto:info@kassara.com' },
-    { icon: FaPhone, titleKey: 'contact.phoneTitle', value: '+90 555 123 45 67', link: 'tel:+905551234567' },
+    { icon: FaEnvelope, titleKey: 'contact.emailTitle', value: 'info@kassara.app', link: 'mailto:info@kassara.app' },
+    { icon: FaPhone, titleKey: 'contact.phoneTitle', value: '+90 534 579 91 03', link: 'tel:+905345799103' },
     { icon: FaMapMarkerAlt, titleKey: 'contact.addressTitle', valueKey: 'contact.address', link: '#' }
   ];
 
