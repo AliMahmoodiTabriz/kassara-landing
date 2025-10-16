@@ -1,4 +1,4 @@
-export const WHATSAPP_PHONE = '+905551234567';
+export const WHATSAPP_PHONE = '+905345799103';
 export const WHATSAPP_MESSAGE = 'Merhaba! Fal baktırmak istiyorum.';
 
 export const SOCIAL_LINKS = {

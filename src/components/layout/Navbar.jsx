@@ -35,12 +35,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {isHomePage ? (
-            <ScrollLink to="home" smooth duration={500} className="text-2xl font-bold text-white cursor-pointer hover:text-gray-300 transition-colors">
-              Kassara
+            <ScrollLink to="home" smooth duration={500} className="cursor-pointer hover:opacity-80 transition-opacity">
+              <img src="/kassara.svg" alt="Kassara" className="h-10 w-auto" />
             </ScrollLink>
           ) : (
-            <RouterLink to="/" className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">
-              Kassara
+            <RouterLink to="/" className="hover:opacity-80 transition-opacity">
+              <img src="/kassara.svg" alt="Kassara" className="h-10 w-auto" />
             </RouterLink>
           )}
 
