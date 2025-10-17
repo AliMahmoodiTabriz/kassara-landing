@@ -102,24 +102,230 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 16 Ekim 2024",
+    "updated": "Son güncelleme: 20 Aralık 2024",
     "intro": "Giriş",
-    "introText": "Kassara olarak, kişisel verilerinizin korunması bizim için önemlidir. Bu politika, verilerinizi nasıl topladığımız ve koruduğumuz hakkında bilgi verir.",
-    "collected": "Toplanan Bilgiler",
-    "collectedItems": ["İletişim bilgileri", "Fal baktırma talepleri", "WhatsApp mesajlaşma geçmişi", "Uygulama kullanım verileri"],
-    "contactTitle": "İletişim",
-    "contactText": "Sorularınız için"
+    "introText": "Kassara olarak, kişisel verilerinizin korunması bizim için son derece önemlidir. Bu Gizlilik Politikası, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) kapsamında, verilerinizi nasıl topladığımız, işlediğimiz, sakladığımız ve koruduğumuz hakkında detaylı bilgi vermektedir.",
+    "company": "Veri Sorumlusu",
+    "companyText": "Ticari Unvan: Kassara\nAdres: Beykoz/İstanbul\nVergi Kimlik No: 1470495021\nİletişim: info@kassara.app",
+    "dataCollection": "Toplanan Kişisel Veriler",
+    "dataCollectionText": "Uygulamamızı kullanırken aşağıdaki kişisel verilerinizi toplamaktayız:",
+    "dataItems": [
+      "Kimlik Verileri: OAuth sağlayıcılarından (Google, Meta, Apple) alınan ad, soyad, e-posta adresi",
+      "İletişim Verileri: WhatsApp iletişim geçmişi ve mesajlaşma kayıtları",
+      "Kullanım Verileri: Fal baktırma geçmişi, tercihler, uygulama içi aktiviteler",
+      "Teknik Veriler: IP adresi, cihaz bilgileri, tarayıcı türü, işletim sistemi",
+      "Lokasyon Verileri: Genel konum bilgisi (ülke/şehir seviyesinde)",
+      "Çerez Verileri: Oturum yönetimi ve kimlik doğrulama için gerekli çerezler"
+    ],
+    "purpose": "Veri İşleme Amaçları",
+    "purposeText": "Kişisel verilerinizi aşağıdaki amaçlarla işlemekteyiz:",
+    "purposeItems": [
+      "Hizmet sunumu ve kullanıcı hesap yönetimi",
+      "Jeton sistemi ve ödeme işlemlerinin yönetimi",
+      "Fal geçmişi ve tercihlerinizin saklanması",
+      "Müşteri hizmetleri ve destek sağlanması",
+      "Uygulama performansının analiz edilmesi ve iyileştirilmesi",
+      "Yasal yükümlülüklerin yerine getirilmesi"
+    ],
+    "legalBasis": "Hukuki Dayanak",
+    "legalBasisText": "Veri işleme faaliyetlerimizin hukuki dayanakları:",
+    "legalBasisItems": [
+      "Açık rıza (KVKK md. 5/2-a)",
+      "Sözleşmenin kurulması veya ifası (KVKK md. 5/2-c)",
+      "Yasal yükümlülüğün yerine getirilmesi (KVKK md. 5/2-e)",
+      "Meşru menfaat (KVKK md. 5/2-f)"
+    ],
+    "dataSharing": "Veri Paylaşımı",
+    "dataSharingText": "Kişisel verilerinizi aşağıdaki durumlar dışında üçüncü kişilerle paylaşmayız:",
+    "dataSharingItems": [
+      "OAuth sağlayıcıları (Google, Meta, Apple) - kimlik doğrulama için",
+      "Keycloak kimlik yönetim sistemi - güvenli oturum yönetimi için",
+      "Yasal zorunluluklar gereği yetkili makamlar",
+      "Açık rızanızın bulunduğu durumlar"
+    ],
+    "dataRetention": "Veri Saklama Süreleri",
+    "dataRetentionText": "Kişisel verilerinizi aşağıdaki süreler boyunca saklarız:",
+    "dataRetentionItems": [
+      "Hesap verileri: Hesap aktif olduğu sürece",
+      "Fal geçmişi: Hesap silinene kadar",
+      "İletişim kayıtları: 2 yıl",
+      "Sistem logları: 6 ay",
+      "Yasal zorunluluk gereği: İlgili mevzuatın öngördüğü süre"
+    ],
+    "dataSecurity": "Veri Güvenliği",
+    "dataSecurityText": "Kişisel verilerinizin güvenliği için aşağıdaki teknik ve idari tedbirleri almaktayız:",
+    "dataSecurityItems": [
+      "SSL/TLS şifreleme protokolleri",
+      "Güvenli sunucu altyapısı",
+      "Düzenli güvenlik güncellemeleri",
+      "Erişim kontrolü ve yetkilendirme",
+      "Veri yedekleme ve kurtarma sistemleri"
+    ],
+    "userRights": "Kullanıcı Hakları",
+    "userRightsText": "KVKK ve GDPR kapsamında aşağıdaki haklara sahipsiniz:",
+    "userRightsItems": [
+      "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+      "İşlenen kişisel verileriniz hakkında bilgi talep etme",
+      "İşleme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
+      "Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme",
+      "Eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
+      "Belirli şartlar altında kişisel verilerinizin silinmesini veya yok edilmesini isteme",
+      "Düzeltme ve silme işlemlerinin üçüncü kişilere bildirilmesini isteme",
+      "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin aleyhine bir sonucun ortaya çıkmasına itiraz etme"
+    ],
+    "accountDeletion": "Hesap Silme",
+    "accountDeletionText": "Hesabınızı silmek istediğinizde:",
+    "accountDeletionItems": [
+      "Tüm kişisel verileriniz anında silinir",
+      "Fal geçmişiniz ve tercihleriniz kaldırılır",
+      "Sistem logları 6 ay sonra otomatik silinir",
+      "Yasal zorunluluk gereği saklanması gereken veriler korunur",
+      "Hesap silme işlemi geri alınamaz"
+    ],
+    "cookies": "Çerez Politikası",
+    "cookiesText": "Uygulamamızda aşağıdaki çerez türlerini kullanmaktayız:",
+    "cookiesItems": [
+      "Zorunlu Çerezler: Oturum yönetimi ve güvenlik için gerekli",
+      "Kimlik Doğrulama Çerezleri: OAuth oturumları için",
+      "Tercih Çerezleri: Dil seçimi ve kullanıcı ayarları için"
+    ],
+    "ageRestriction": "Yaş Sınırı",
+    "ageRestrictionText": "Uygulamamız 18 yaş ve üzeri kullanıcılar içindir. 18 yaş altındaki kişilerin uygulamayı kullanması yasaktır.",
+    "entertainment": "Eğlence Amaçlı Kullanım",
+    "entertainmentText": "Kassara uygulaması tamamen eğlence amaçlıdır. Sunulan fal hizmetleri gerçek kehanet veya gelecek tahmini değildir. Kullanıcılar bu hizmetleri sadece eğlence amacıyla kullanmalıdır.",
+    "international": "Uluslararası Kullanıcılar",
+    "internationalText": "Avrupa Birliği dışındaki kullanıcılar için GDPR hükümleri geçerli değildir. Ancak veri koruma standartlarımız tüm kullanıcılar için aynı seviyededir.",
+    "changes": "Politika Değişiklikleri",
+    "changesText": "Bu Gizlilik Politikasını gerektiğinde güncelleyebiliriz. Önemli değişiklikler durumunda kullanıcılarımızı e-posta yoluyla bilgilendiririz.",
+    "contact": "İletişim ve Başvuru",
+    "contactText": "Kişisel verilerinizle ilgili taleplerinizi info@kassara.app adresine iletebilirsiniz. Başvurularınız 30 gün içinde yanıtlanacaktır.",
+    "authority": "Veri Koruma Kurumu",
+    "authorityText": "Haklarınızın ihlal edildiğini düşünüyorsanız, Türkiye Cumhuriyeti Veri Koruma Kurumu'na başvurabilirsiniz."
   },
   "terms": {
     "title": "Kullanım Şartları",
-    "updated": "Son güncelleme: 16 Ekim 2024",
-    "general": "Genel Hükümler",
-    "generalText": "Bu şartlar, Kassara platformunu kullanırken uymanız gereken kuralları belirler.",
+    "updated": "Son güncelleme: 20 Aralık 2024",
+    "acceptance": "Kabul ve Onay",
+    "acceptanceText": "Bu Kullanım Şartları, Kassara uygulamasını indirerek, kayıt olarak veya kullanarak kabul ettiğiniz yasal bir sözleşmedir. Bu şartları kabul etmiyorsanız, uygulamayı kullanmayınız.",
+    "company": "Şirket Bilgileri",
+    "companyText": "Ticari Unvan: Kassara\nAdres: Beykoz/İstanbul\nVergi Kimlik No: 1470495021\nİletişim: info@kassara.app",
     "service": "Hizmet Tanımı",
-    "serviceText": "Kassara şu hizmetleri sunar:",
-    "serviceItems": ["Tarot falı okuma hizmetleri", "Astroloji analizleri", "Kahve falı yorumları", "WhatsApp fal danışmanlığı"],
-    "contactTitle": "İletişim",
-    "contactText": "Sorularınız için"
+    "serviceText": "Kassara, yapay zeka destekli eğlence amaçlı fal hizmetleri sunan bir mobil uygulamadır. Sunulan hizmetler:",
+    "serviceItems": [
+      "AI destekli tarot kartı okuma hizmetleri",
+      "Astroloji analizleri ve yorumları",
+      "Kahve falı yorumları",
+      "WhatsApp üzerinden fal danışmanlığı",
+      "Jeton sistemi ile ücretli hizmet erişimi"
+    ],
+    "entertainment": "Eğlence Amaçlı Kullanım",
+    "entertainmentText": "Kassara uygulaması tamamen eğlence amaçlıdır. Sunulan tüm fal hizmetleri gerçek kehanet, gelecek tahmini veya profesyonel danışmanlık değildir. Kullanıcılar bu hizmetleri sadece eğlence amacıyla kullanmalıdır.",
+    "ageRestriction": "Yaş Sınırı ve Sorumluluk",
+    "ageRestrictionText": "Uygulamamız 18 yaş ve üzeri kullanıcılar içindir. 18 yaş altındaki kişilerin uygulamayı kullanması kesinlikle yasaktır. Kayıt olurken yaşınızı doğru bildirmekle yükümlüsünüz.",
+    "account": "Hesap Oluşturma ve Yönetimi",
+    "accountText": "Hesap oluşturmak için aşağıdaki koşulları sağlamalısınız:",
+    "accountItems": [
+      "18 yaş ve üzeri olmak",
+      "Google, Meta (Facebook) veya Apple hesabı ile giriş yapmak",
+      "Geçerli bir e-posta adresi sağlamak",
+      "Gerçek ve doğru bilgiler vermek",
+      "Bu kullanım şartlarını kabul etmek"
+    ],
+    "payment": "Ödeme ve Jeton Sistemi",
+    "paymentText": "Kassara uygulaması ücretli hizmetler sunmaktadır:",
+    "paymentItems": [
+      "Ödeme yöntemi: Apple App Store ve Google Play Store In-App Purchase",
+      "Jeton sistemi: Satın alınan jetonlar ile fal hizmetlerine erişim",
+      "Jeton geçerliliği: Satın alma tarihinden itibaren 1 yıl",
+      "İade politikası: Apple ve Google store politikalarına tabidir",
+      "Fiyat değişiklikleri: Önceden bildirim yapılmaksızın değiştirilebilir"
+    ],
+    "prohibited": "Yasaklı Kullanımlar",
+    "prohibitedText": "Aşağıdaki faaliyetler kesinlikle yasaktır:",
+    "prohibitedItems": [
+      "Uygulamayı hacklemek, reverse engineering yapmak",
+      "Başka kullanıcıların hesaplarını ele geçirmek",
+      "Spam, zararlı içerik veya yanıltıcı bilgi paylaşmak",
+      "Telif hakkı ihlali yapmak",
+      "Uygulamanın güvenliğini tehdit etmek",
+      "Yasadışı faaliyetlerde bulunmak"
+    ],
+    "intellectual": "Fikri Mülkiyet Hakları",
+    "intellectualText": "Kassara uygulaması ve tüm içeriği telif hakkı ile korunmaktadır:",
+    "intellectualItems": [
+      "Uygulama yazılımı ve kaynak kodu",
+      "AI modelleri ve algoritmaları",
+      "Tasarım, logo ve marka unsurları",
+      "Fal kartları ve içerikleri",
+      "Kullanıcı arayüzü ve deneyimi"
+    ],
+    "liability": "Sorumluluk Reddi",
+    "liabilityText": "Kassara olarak sorumluluğumuzu sınırlarız:",
+    "liabilityItems": [
+      "Fal sonuçlarının doğruluğu garanti edilmez",
+      "Kullanıcıların aldığı kararlardan sorumlu değiliz",
+      "Teknik arızalar ve kesintilerden sorumlu değiliz",
+      "Üçüncü parti servislerden kaynaklanan sorunlardan sorumlu değiliz",
+      "Kullanıcıların uygulama dışındaki faaliyetlerinden sorumlu değiliz"
+    ],
+    "accountSuspension": "Hesap Askıya Alma ve Kapatma",
+    "accountSuspensionText": "Aşağıdaki durumlarda hesabınız askıya alınabilir veya kapatılabilir:",
+    "accountSuspensionItems": [
+      "Kullanım şartlarını ihlal etmek",
+      "Yasaklı faaliyetlerde bulunmak",
+      "Sahte bilgi vermek",
+      "Ödeme işlemlerinde sorun yaşamak",
+      "Diğer kullanıcıları rahatsız etmek"
+    ],
+    "serviceChanges": "Hizmet Değişiklikleri",
+    "serviceChangesText": "Kassara olarak aşağıdaki hakları saklı tutarız:",
+    "serviceChangesItems": [
+      "Uygulamayı herhangi bir zamanda güncelleme",
+      "Yeni özellikler ekleme veya mevcut özellikleri kaldırma",
+      "Fiyatları değiştirme",
+      "Hizmeti geçici veya kalıcı olarak durdurma",
+      "Kullanım şartlarını değiştirme"
+    ],
+    "warranty": "Garanti Reddi",
+    "warrantyText": "Uygulama 'olduğu gibi' sunulmaktadır. Hiçbir garanti verilmez:",
+    "warrantyItems": [
+      "Kesintisiz hizmet garantisi yoktur",
+      "Hata ve virüs içermeme garantisi yoktur",
+      "Belirli amaçlara uygunluk garantisi yoktur",
+      "Üçüncü parti uyumluluk garantisi yoktur"
+    ],
+    "limitation": "Sorumluluk Sınırlaması",
+    "limitationText": "Kassara'nın sorumluluğu aşağıdaki durumlarla sınırlıdır:",
+    "limitationItems": [
+      "Maksimum sorumluluk: Son 12 ayda ödenen toplam ücret",
+      "Dolaylı zararlardan sorumlu değiliz",
+      "Kar kaybı, veri kaybı, iş kaybından sorumlu değiliz",
+      "Üçüncü parti zararlardan sorumlu değiliz"
+    ],
+    "indemnification": "Tazminat",
+    "indemnificationText": "Kullanıcılar, Kassara'yı aşağıdaki durumlardan korumayı kabul eder:",
+    "indemnificationItems": [
+      "Kullanıcının ihlal ettiği yasal düzenlemeler",
+      "Kullanıcının ihlal ettiği üçüncü parti haklar",
+      "Kullanıcının neden olduğu zararlar",
+      "Kullanıcının yanlış bilgi vermesinden kaynaklanan zararlar"
+    ],
+    "dispute": "Uyuşmazlık Çözümü",
+    "disputeText": "Bu sözleşmeden doğan uyuşmazlıklar:",
+    "disputeItems": [
+      "Öncelikle dostane yollarla çözülmeye çalışılır",
+      "Çözülemezse İstanbul Mahkemeleri yetkilidir",
+      "Türk hukuku uygulanır",
+      "Tahkim yolu kapalıdır"
+    ],
+    "changes": "Sözleşme Değişiklikleri",
+    "changesText": "Bu kullanım şartlarını gerektiğinde güncelleyebiliriz. Önemli değişiklikler durumunda kullanıcılarımızı uygulama içi bildirim ile bilgilendiririz.",
+    "severability": "Geçerlilik",
+    "severabilityText": "Bu sözleşmenin herhangi bir maddesi geçersiz sayılırsa, diğer maddeler geçerliliğini korur.",
+    "contact": "İletişim",
+    "contactText": "Sorularınız ve şikayetleriniz için info@kassara.app adresine başvurabilirsiniz.",
+    "effective": "Yürürlük",
+    "effectiveText": "Bu kullanım şartları 20 Aralık 2024 tarihinde yürürlüğe girmiştir."
   }
 }
 

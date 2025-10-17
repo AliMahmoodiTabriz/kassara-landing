@@ -102,24 +102,230 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Last updated: October 16, 2024",
+    "updated": "Last updated: December 20, 2024",
     "intro": "Introduction",
-    "introText": "At Kassara, protecting your personal data is important to us. This policy explains how we collect and protect your data.",
-    "collected": "Collected Information",
-    "collectedItems": ["Contact information", "Fortune reading requests", "WhatsApp messaging history", "App usage data"],
-    "contactTitle": "Contact",
-    "contactText": "For your questions"
+    "introText": "At Kassara, protecting your personal data is of utmost importance to us. This Privacy Policy provides detailed information about how we collect, process, store, and protect your data in accordance with the General Data Protection Regulation (GDPR) and applicable data protection laws.",
+    "company": "Data Controller",
+    "companyText": "Company Name: Kassara\nAddress: Beykoz/Istanbul\nTax ID: 1470495021\nContact: info@kassara.app",
+    "dataCollection": "Personal Data We Collect",
+    "dataCollectionText": "When using our application, we collect the following personal data:",
+    "dataItems": [
+      "Identity Data: Name, surname, email address from OAuth providers (Google, Meta, Apple)",
+      "Communication Data: WhatsApp communication history and messaging records",
+      "Usage Data: Fortune reading history, preferences, in-app activities",
+      "Technical Data: IP address, device information, browser type, operating system",
+      "Location Data: General location information (country/city level)",
+      "Cookie Data: Cookies necessary for session management and authentication"
+    ],
+    "purpose": "Data Processing Purposes",
+    "purposeText": "We process your personal data for the following purposes:",
+    "purposeItems": [
+      "Service provision and user account management",
+      "Token system and payment transaction management",
+      "Storage of fortune reading history and preferences",
+      "Customer service and support provision",
+      "Application performance analysis and improvement",
+      "Compliance with legal obligations"
+    ],
+    "legalBasis": "Legal Basis",
+    "legalBasisText": "The legal basis for our data processing activities:",
+    "legalBasisItems": [
+      "Explicit consent (GDPR Art. 6/1-a)",
+      "Contract performance (GDPR Art. 6/1-b)",
+      "Legal obligation (GDPR Art. 6/1-c)",
+      "Legitimate interest (GDPR Art. 6/1-f)"
+    ],
+    "dataSharing": "Data Sharing",
+    "dataSharingText": "We do not share your personal data with third parties except in the following cases:",
+    "dataSharingItems": [
+      "OAuth providers (Google, Meta, Apple) - for authentication purposes",
+      "Keycloak identity management system - for secure session management",
+      "Authorities when required by legal obligations",
+      "Cases where your explicit consent is given"
+    ],
+    "dataRetention": "Data Retention Periods",
+    "dataRetentionText": "We retain your personal data for the following periods:",
+    "dataRetentionItems": [
+      "Account data: As long as the account is active",
+      "Fortune reading history: Until account deletion",
+      "Communication records: 2 years",
+      "System logs: 6 months",
+      "Legal obligation: As required by relevant legislation"
+    ],
+    "dataSecurity": "Data Security",
+    "dataSecurityText": "We implement the following technical and administrative measures to ensure the security of your personal data:",
+    "dataSecurityItems": [
+      "SSL/TLS encryption protocols",
+      "Secure server infrastructure",
+      "Regular security updates",
+      "Access control and authorization",
+      "Data backup and recovery systems"
+    ],
+    "userRights": "User Rights",
+    "userRightsText": "Under GDPR and applicable data protection laws, you have the following rights:",
+    "userRightsItems": [
+      "Right to know whether your personal data is being processed",
+      "Right to request information about your processed personal data",
+      "Right to know the purpose of processing and whether it is used appropriately",
+      "Right to know third parties to whom your data is transferred",
+      "Right to request correction of incomplete or incorrect data",
+      "Right to request deletion or destruction of your data under certain conditions",
+      "Right to request notification of correction and deletion to third parties",
+      "Right to object to automated decision-making that may adversely affect you"
+    ],
+    "accountDeletion": "Account Deletion",
+    "accountDeletionText": "When you delete your account:",
+    "accountDeletionItems": [
+      "All your personal data is immediately deleted",
+      "Your fortune reading history and preferences are removed",
+      "System logs are automatically deleted after 6 months",
+      "Data required by legal obligations is preserved",
+      "Account deletion cannot be reversed"
+    ],
+    "cookies": "Cookie Policy",
+    "cookiesText": "We use the following types of cookies in our application:",
+    "cookiesItems": [
+      "Essential Cookies: Required for session management and security",
+      "Authentication Cookies: For OAuth sessions",
+      "Preference Cookies: For language selection and user settings"
+    ],
+    "ageRestriction": "Age Restriction",
+    "ageRestrictionText": "Our application is for users aged 18 and above. Use by persons under 18 is strictly prohibited.",
+    "entertainment": "Entertainment Purpose",
+    "entertainmentText": "The Kassara application is purely for entertainment purposes. All fortune services offered are not real predictions, future forecasts, or professional consultation. Users should use these services only for entertainment purposes.",
+    "international": "International Users",
+    "internationalText": "GDPR provisions do not apply to users outside the European Union. However, our data protection standards are at the same level for all users.",
+    "changes": "Policy Changes",
+    "changesText": "We may update this Privacy Policy as needed. In case of significant changes, we will inform our users via email.",
+    "contact": "Contact and Applications",
+    "contactText": "You can submit your requests regarding your personal data to info@kassara.app. Applications will be responded to within 30 days.",
+    "authority": "Data Protection Authority",
+    "authorityText": "If you believe your rights have been violated, you can apply to the relevant data protection authority in your jurisdiction."
   },
   "terms": {
     "title": "Terms of Service",
-    "updated": "Last updated: October 16, 2024",
-    "general": "General Terms",
-    "generalText": "These terms define the rules you must follow when using the Kassara platform.",
+    "updated": "Last updated: December 20, 2024",
+    "acceptance": "Acceptance and Agreement",
+    "acceptanceText": "These Terms of Service constitute a legal agreement that you accept by downloading, registering, or using the Kassara application. If you do not agree to these terms, please do not use the application.",
+    "company": "Company Information",
+    "companyText": "Company Name: Kassara\nAddress: Beykoz/Istanbul\nTax ID: 1470495021\nContact: info@kassara.app",
     "service": "Service Definition",
-    "serviceText": "Kassara offers the following services:",
-    "serviceItems": ["Tarot reading services", "Astrology analysis", "Coffee fortune interpretations", "WhatsApp fortune consultation"],
-    "contactTitle": "Contact",
-    "contactText": "For your questions"
+    "serviceText": "Kassara is a mobile application that provides AI-powered entertainment fortune-telling services. The services offered include:",
+    "serviceItems": [
+      "AI-powered tarot card reading services",
+      "Astrology analysis and interpretations",
+      "Coffee fortune interpretations",
+      "WhatsApp fortune consultation",
+      "Paid service access through token system"
+    ],
+    "entertainment": "Entertainment Purpose",
+    "entertainmentText": "The Kassara application is purely for entertainment purposes. All fortune services offered are not real predictions, future forecasts, or professional consultation. Users should use these services only for entertainment purposes.",
+    "ageRestriction": "Age Restriction and Responsibility",
+    "ageRestrictionText": "Our application is for users aged 18 and above. Use by persons under 18 is strictly prohibited. You are obligated to provide accurate age information when registering.",
+    "account": "Account Creation and Management",
+    "accountText": "To create an account, you must meet the following conditions:",
+    "accountItems": [
+      "Be 18 years of age or older",
+      "Sign in with Google, Meta (Facebook), or Apple account",
+      "Provide a valid email address",
+      "Provide true and accurate information",
+      "Accept these terms of service"
+    ],
+    "payment": "Payment and Token System",
+    "paymentText": "The Kassara application offers paid services:",
+    "paymentItems": [
+      "Payment method: Apple App Store and Google Play Store In-App Purchase",
+      "Token system: Access to fortune services with purchased tokens",
+      "Token validity: 1 year from purchase date",
+      "Refund policy: Subject to Apple and Google store policies",
+      "Price changes: May be changed without prior notice"
+    ],
+    "prohibited": "Prohibited Uses",
+    "prohibitedText": "The following activities are strictly prohibited:",
+    "prohibitedItems": [
+      "Hacking the application or performing reverse engineering",
+      "Accessing other users' accounts",
+      "Sharing spam, harmful content, or misleading information",
+      "Copyright infringement",
+      "Threatening application security",
+      "Engaging in illegal activities"
+    ],
+    "intellectual": "Intellectual Property Rights",
+    "intellectualText": "The Kassara application and all its content are protected by copyright:",
+    "intellectualItems": [
+      "Application software and source code",
+      "AI models and algorithms",
+      "Design, logo, and brand elements",
+      "Fortune cards and content",
+      "User interface and experience"
+    ],
+    "liability": "Liability Disclaimer",
+    "liabilityText": "As Kassara, we limit our liability:",
+    "liabilityItems": [
+      "Accuracy of fortune results is not guaranteed",
+      "We are not responsible for users' decisions",
+      "We are not responsible for technical failures and interruptions",
+      "We are not responsible for third-party service issues",
+      "We are not responsible for users' activities outside the application"
+    ],
+    "accountSuspension": "Account Suspension and Termination",
+    "accountSuspensionText": "Your account may be suspended or terminated in the following cases:",
+    "accountSuspensionItems": [
+      "Violating terms of service",
+      "Engaging in prohibited activities",
+      "Providing false information",
+      "Experiencing payment transaction issues",
+      "Disturbing other users"
+    ],
+    "serviceChanges": "Service Changes",
+    "serviceChangesText": "As Kassara, we reserve the following rights:",
+    "serviceChangesItems": [
+      "Update the application at any time",
+      "Add new features or remove existing features",
+      "Change prices",
+      "Temporarily or permanently suspend service",
+      "Modify terms of service"
+    ],
+    "warranty": "Warranty Disclaimer",
+    "warrantyText": "The application is provided 'as is'. No warranties are given:",
+    "warrantyItems": [
+      "No guarantee of uninterrupted service",
+      "No guarantee of being free from errors and viruses",
+      "No guarantee of suitability for specific purposes",
+      "No guarantee of third-party compatibility"
+    ],
+    "limitation": "Liability Limitation",
+    "limitationText": "Kassara's liability is limited to the following:",
+    "limitationItems": [
+      "Maximum liability: Total amount paid in the last 12 months",
+      "We are not liable for indirect damages",
+      "We are not liable for loss of profit, data loss, business loss",
+      "We are not liable for third-party damages"
+    ],
+    "indemnification": "Indemnification",
+    "indemnificationText": "Users agree to indemnify Kassara from the following:",
+    "indemnificationItems": [
+      "Legal regulations violated by the user",
+      "Third-party rights violated by the user",
+      "Damages caused by the user",
+      "Damages arising from the user providing false information"
+    ],
+    "dispute": "Dispute Resolution",
+    "disputeText": "Disputes arising from this agreement:",
+    "disputeItems": [
+      "First attempted to be resolved amicably",
+      "If not resolved, Istanbul Courts are authorized",
+      "Turkish law applies",
+      "Arbitration is not available"
+    ],
+    "changes": "Agreement Changes",
+    "changesText": "We may update these terms of service as needed. In case of significant changes, we will inform our users through in-app notifications.",
+    "severability": "Severability",
+    "severabilityText": "If any provision of this agreement is deemed invalid, other provisions remain valid.",
+    "contact": "Contact",
+    "contactText": "For your questions and complaints, you can contact info@kassara.app.",
+    "effective": "Effective Date",
+    "effectiveText": "These terms of service became effective on December 20, 2024."
   }
 }
 
