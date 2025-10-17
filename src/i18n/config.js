@@ -26,6 +26,11 @@ i18n
 
 // IP tabanlı dil tespiti (i18n başlatıldıktan sonra)
 const detectLanguageByIP = () => {
+  // Standalone modda IP tespiti yapma (URL'de lang parametresi var)
+  if (window.location.pathname.includes('/standalone')) {
+    return;
+  }
+  
   fetch('https://ipapi.co/json/')
     .then(response => response.json())
     .then(data => {
